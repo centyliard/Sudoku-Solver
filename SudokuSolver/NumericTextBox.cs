@@ -13,13 +13,14 @@ namespace SudokuSolver
     {
         /// <summary>
         /// Dzięki tej funkcji dopuszczalne jest jedynie wprowadzanie znaków
-        /// 0-9, ponadto pozwala ona na automatyczne przejście do następnej
+        /// 1-9, ponadto pozwala ona na automatyczne przejście do następnej
         /// linii po wprowadzeniu jakiejś liczby
         /// </summary>
         protected override void OnKeyPress(KeyPressEventArgs e)
         {
             base.OnKeyPress(e);
-            if ((!Char.IsDigit(e.KeyChar)) && e.KeyChar != (char)Keys.Back)
+            if (((!Char.IsDigit(e.KeyChar)) && e.KeyChar != (char)Keys.Back) ||
+                e.KeyChar.ToString() == "0")
             {
                 e.Handled = true;
             }

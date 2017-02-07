@@ -6,7 +6,6 @@ using System.Windows.Forms;
 
 namespace SudokuSolver
 {
-    // XDDDD
     static class Program
     {
         /// <summary>
