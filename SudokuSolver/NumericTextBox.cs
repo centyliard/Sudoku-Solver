@@ -12,13 +12,13 @@ namespace SudokuSolver
     class NumericTextBox : TextBox
     {
         /// <summary>
-        /// Dzięki tej funkcji dopuszczalne jest jedynie wprowadzanie znaków
-        /// 1-9, ponadto pozwala ona na automatyczne przejście do następnej
-        /// linii po wprowadzeniu jakiejś liczby
+        /// This function allows a user to input 1-9 numbers only and goes to
+        /// the next box after entering the number
         /// </summary>
         protected override void OnKeyPress(KeyPressEventArgs e)
         {
             base.OnKeyPress(e);
+
             if (((!Char.IsDigit(e.KeyChar)) && e.KeyChar != (char)Keys.Back) ||
                 e.KeyChar.ToString() == "0")
             {

@@ -145,7 +145,7 @@
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel10);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(238, 261);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(238, 254);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // flowLayoutPanel2
@@ -879,11 +879,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(95, 279);
+            this.button1.Location = new System.Drawing.Point(94, 284);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(72, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Solve!";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -1020,7 +1020,7 @@
 
         #endregion
 
-        private NumericTextBox[,] SudokuGrid;
+        private SudokuGrid sudokuGrid;
         private System.Windows.Forms.Button button1;
     }
 }
