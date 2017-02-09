@@ -19,7 +19,7 @@ namespace SudokuSolver
         /// A 2-D array holding all the NumericTextBoxes.
         /// </summary>
         private NumericTextBox[,] Grid = new NumericTextBox[9, 9];
-        
+
         /// <param name="form">Pass your main form here.</param>
         public SudokuGrid(Form form)
         {
@@ -41,7 +41,27 @@ namespace SudokuSolver
 
         }
 
-        public bool Validate3x3(int smallSquareIndex)
+        public NumericTextBox[] GetRow(int row)
+        {
+            NumericTextBox[] selectedRow = new NumericTextBox[9];
+            for (int i = 0; i < 9; i++)
+            {
+                selectedRow[i] = Grid[row, i];
+            }
+
+            return selectedRow;
+        }
+        public NumericTextBox[] GetColumn(int col)
+        {
+            NumericTextBox[] selectedCol = new NumericTextBox[9];
+            for (int i = 0; i < 9; i++)
+            {
+                selectedCol[i] = Grid[i, col];
+            }
+
+            return selectedCol;
+        }
+        public NumericTextBox[,] Get3x3(int smallSquareIndex)
         {
             int startingpoint_x = smallSquareIndex / 3 * 3;
             int startingpoint_y = smallSquareIndex % 3 * 3;
@@ -55,6 +75,14 @@ namespace SudokuSolver
                     smallSquare[i, j] = Grid[startingpoint_x + i, startingpoint_y + j];
                 }
             }
+
+            return smallSquare;
+        }
+
+        public bool Validate3x3(int smallSquareIndex)
+        {
+            NumericTextBox[,] smallSquare = Get3x3(smallSquareIndex);
+
 
             int[] repeating = new int[10];
             for (int i = 0; i < 3; i++)
@@ -87,17 +115,18 @@ namespace SudokuSolver
         }
         public bool ValidateRow(int row)
         {
+            NumericTextBox[] selectedRow = GetRow(row);
             int[] repeating = new int[10];
             for (int i = 0; i < 9; i++)
             {
                 int BoxValue = 0;
-                if (Grid[row, i].Text == "")
+                if (selectedRow[i].Text == "")
                 {
                     BoxValue = 0;
                 }
                 else
                 {
-                    BoxValue = int.Parse(Grid[row, i].Text);
+                    BoxValue = int.Parse(selectedRow[i].Text);
                 }
 
                 repeating[BoxValue]++;
@@ -115,17 +144,18 @@ namespace SudokuSolver
         }
         public bool ValidateColumn(int col)
         {
+            NumericTextBox[] selectedColumn = GetColumn(col);
             int[] repeating = new int[10];
             for (int i = 0; i < 9; i++)
             {
                 int BoxValue = 0;
-                if (Grid[i, col].Text == "")
+                if (selectedColumn[i].Text == "")
                 {
                     BoxValue = 0;
                 }
                 else
                 {
-                    BoxValue = int.Parse(Grid[i, col].Text);
+                    BoxValue = int.Parse(selectedColumn[i].Text);
                 }
 
                 repeating[BoxValue]++;
@@ -150,20 +180,56 @@ namespace SudokuSolver
                 if (!Validate3x3(i))
                 {
                     MessageBox.Show(String.Format("Your {0} small square is not valid!", i + 1));
+                    Highlight3x3(i);
                     flag = false;
                 }
                 if (!ValidateRow(i))
                 {
                     MessageBox.Show(String.Format("Your {0} row is not valid!", i + 1));
+                    HighlightRow(i);
                     flag = false;
                 }
                 if (!ValidateColumn(i))
                 {
                     MessageBox.Show(String.Format(@"Your {0} column is not valid!", i + 1));
+                    HighlightColumn(i);
                     flag = false;
                 }
             }
             return flag;
+        }
+
+        private void HighlightColumn(int col)
+        {
+            NumericTextBox[] column = GetColumn(col);
+            foreach (NumericTextBox box in column)
+            {
+                box.BackColor = System.Drawing.Color.Red;
+            }
+        }
+        private void Highlight3x3(int smallSquareIndex)
+        {
+            NumericTextBox[,] smallSquare = Get3x3(smallSquareIndex);
+
+            foreach (NumericTextBox box in smallSquare)
+            {
+                box.BackColor = System.Drawing.Color.Red;
+            }
+        }
+        private void HighlightRow(int row)
+        {
+            NumericTextBox[] Row = GetRow(row);
+            foreach (NumericTextBox box in Row)
+            {
+                box.BackColor = System.Drawing.Color.Red;
+            }
+        }
+        public void ClearHighlighting()
+        {
+            foreach (NumericTextBox box in Grid)
+            {
+                box.BackColor = System.Drawing.SystemColors.Window;
+            }
         }
     }
 }

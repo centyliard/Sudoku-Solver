@@ -26,6 +26,7 @@ namespace SudokuSolver
 
         private void button1_Click(object sender, EventArgs e)
         {
+            sudokuGrid.ClearHighlighting();
             if (!sudokuGrid.ValidateGrid()) return;
         }
     }

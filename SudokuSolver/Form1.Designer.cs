@@ -30,6 +30,15 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.numericTextBox1 = new SudokuSolver.NumericTextBox();
             this.numericTextBox2 = new SudokuSolver.NumericTextBox();
             this.numericTextBox3 = new SudokuSolver.NumericTextBox();
@@ -39,7 +48,6 @@
             this.numericTextBox7 = new SudokuSolver.NumericTextBox();
             this.numericTextBox8 = new SudokuSolver.NumericTextBox();
             this.numericTextBox9 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox10 = new SudokuSolver.NumericTextBox();
             this.numericTextBox11 = new SudokuSolver.NumericTextBox();
             this.numericTextBox12 = new SudokuSolver.NumericTextBox();
@@ -49,7 +57,6 @@
             this.numericTextBox16 = new SudokuSolver.NumericTextBox();
             this.numericTextBox17 = new SudokuSolver.NumericTextBox();
             this.numericTextBox18 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox19 = new SudokuSolver.NumericTextBox();
             this.numericTextBox20 = new SudokuSolver.NumericTextBox();
             this.numericTextBox21 = new SudokuSolver.NumericTextBox();
@@ -59,7 +66,6 @@
             this.numericTextBox25 = new SudokuSolver.NumericTextBox();
             this.numericTextBox26 = new SudokuSolver.NumericTextBox();
             this.numericTextBox27 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox28 = new SudokuSolver.NumericTextBox();
             this.numericTextBox29 = new SudokuSolver.NumericTextBox();
             this.numericTextBox30 = new SudokuSolver.NumericTextBox();
@@ -69,7 +75,6 @@
             this.numericTextBox34 = new SudokuSolver.NumericTextBox();
             this.numericTextBox35 = new SudokuSolver.NumericTextBox();
             this.numericTextBox36 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox37 = new SudokuSolver.NumericTextBox();
             this.numericTextBox38 = new SudokuSolver.NumericTextBox();
             this.numericTextBox39 = new SudokuSolver.NumericTextBox();
@@ -79,7 +84,6 @@
             this.numericTextBox43 = new SudokuSolver.NumericTextBox();
             this.numericTextBox44 = new SudokuSolver.NumericTextBox();
             this.numericTextBox45 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox46 = new SudokuSolver.NumericTextBox();
             this.numericTextBox47 = new SudokuSolver.NumericTextBox();
             this.numericTextBox48 = new SudokuSolver.NumericTextBox();
@@ -89,7 +93,6 @@
             this.numericTextBox52 = new SudokuSolver.NumericTextBox();
             this.numericTextBox53 = new SudokuSolver.NumericTextBox();
             this.numericTextBox54 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox55 = new SudokuSolver.NumericTextBox();
             this.numericTextBox56 = new SudokuSolver.NumericTextBox();
             this.numericTextBox57 = new SudokuSolver.NumericTextBox();
@@ -99,7 +102,6 @@
             this.numericTextBox61 = new SudokuSolver.NumericTextBox();
             this.numericTextBox62 = new SudokuSolver.NumericTextBox();
             this.numericTextBox63 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox64 = new SudokuSolver.NumericTextBox();
             this.numericTextBox65 = new SudokuSolver.NumericTextBox();
             this.numericTextBox66 = new SudokuSolver.NumericTextBox();
@@ -109,7 +111,6 @@
             this.numericTextBox70 = new SudokuSolver.NumericTextBox();
             this.numericTextBox71 = new SudokuSolver.NumericTextBox();
             this.numericTextBox72 = new SudokuSolver.NumericTextBox();
-            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.numericTextBox73 = new SudokuSolver.NumericTextBox();
             this.numericTextBox74 = new SudokuSolver.NumericTextBox();
             this.numericTextBox75 = new SudokuSolver.NumericTextBox();
@@ -119,7 +120,6 @@
             this.numericTextBox79 = new SudokuSolver.NumericTextBox();
             this.numericTextBox80 = new SudokuSolver.NumericTextBox();
             this.numericTextBox81 = new SudokuSolver.NumericTextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -165,6 +165,160 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(234, 26);
             this.flowLayoutPanel2.TabIndex = 1;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.AutoSize = true;
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox10);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox11);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox12);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox13);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox14);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox15);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox16);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox17);
+            this.flowLayoutPanel3.Controls.Add(this.numericTextBox18);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(1, 29);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel3.TabIndex = 2;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.AutoSize = true;
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox19);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox20);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox21);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox22);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox23);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox24);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox25);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox26);
+            this.flowLayoutPanel4.Controls.Add(this.numericTextBox27);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(1, 57);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel4.TabIndex = 3;
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.AutoSize = true;
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox28);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox29);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox30);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox31);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox32);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox33);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox34);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox35);
+            this.flowLayoutPanel5.Controls.Add(this.numericTextBox36);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(1, 85);
+            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel5.TabIndex = 4;
+            // 
+            // flowLayoutPanel6
+            // 
+            this.flowLayoutPanel6.AutoSize = true;
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox37);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox38);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox39);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox40);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox41);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox42);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox43);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox44);
+            this.flowLayoutPanel6.Controls.Add(this.numericTextBox45);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(1, 113);
+            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel6.TabIndex = 5;
+            // 
+            // flowLayoutPanel7
+            // 
+            this.flowLayoutPanel7.AutoSize = true;
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox46);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox47);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox48);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox49);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox50);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox51);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox52);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox53);
+            this.flowLayoutPanel7.Controls.Add(this.numericTextBox54);
+            this.flowLayoutPanel7.Location = new System.Drawing.Point(1, 141);
+            this.flowLayoutPanel7.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
+            this.flowLayoutPanel7.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel7.TabIndex = 6;
+            // 
+            // flowLayoutPanel8
+            // 
+            this.flowLayoutPanel8.AutoSize = true;
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox55);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox56);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox57);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox58);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox59);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox60);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox61);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox62);
+            this.flowLayoutPanel8.Controls.Add(this.numericTextBox63);
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(1, 169);
+            this.flowLayoutPanel8.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel8.TabIndex = 7;
+            // 
+            // flowLayoutPanel9
+            // 
+            this.flowLayoutPanel9.AutoSize = true;
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox64);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox65);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox66);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox67);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox68);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox69);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox70);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox71);
+            this.flowLayoutPanel9.Controls.Add(this.numericTextBox72);
+            this.flowLayoutPanel9.Location = new System.Drawing.Point(1, 197);
+            this.flowLayoutPanel9.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
+            this.flowLayoutPanel9.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel9.TabIndex = 8;
+            // 
+            // flowLayoutPanel10
+            // 
+            this.flowLayoutPanel10.AutoSize = true;
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox73);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox74);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox75);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox76);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox77);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox78);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox79);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox80);
+            this.flowLayoutPanel10.Controls.Add(this.numericTextBox81);
+            this.flowLayoutPanel10.Location = new System.Drawing.Point(1, 225);
+            this.flowLayoutPanel10.Margin = new System.Windows.Forms.Padding(1);
+            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
+            this.flowLayoutPanel10.Size = new System.Drawing.Size(234, 26);
+            this.flowLayoutPanel10.TabIndex = 9;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(94, 284);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(72, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Solve!";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // numericTextBox1
             // 
@@ -229,24 +383,6 @@
             this.numericTextBox9.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox9.TabIndex = 0;
             // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.AutoSize = true;
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox10);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox11);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox12);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox13);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox14);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox15);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox16);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox17);
-            this.flowLayoutPanel3.Controls.Add(this.numericTextBox18);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(1, 29);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel3.TabIndex = 2;
-            // 
             // numericTextBox10
             // 
             this.numericTextBox10.Location = new System.Drawing.Point(3, 3);
@@ -309,24 +445,6 @@
             this.numericTextBox18.Name = "numericTextBox18";
             this.numericTextBox18.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox18.TabIndex = 0;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.AutoSize = true;
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox19);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox20);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox21);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox22);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox23);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox24);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox25);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox26);
-            this.flowLayoutPanel4.Controls.Add(this.numericTextBox27);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(1, 57);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel4.TabIndex = 3;
             // 
             // numericTextBox19
             // 
@@ -391,24 +509,6 @@
             this.numericTextBox27.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox27.TabIndex = 0;
             // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.AutoSize = true;
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox28);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox29);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox30);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox31);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox32);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox33);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox34);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox35);
-            this.flowLayoutPanel5.Controls.Add(this.numericTextBox36);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(1, 85);
-            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel5.TabIndex = 4;
-            // 
             // numericTextBox28
             // 
             this.numericTextBox28.Location = new System.Drawing.Point(3, 3);
@@ -471,24 +571,6 @@
             this.numericTextBox36.Name = "numericTextBox36";
             this.numericTextBox36.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox36.TabIndex = 0;
-            // 
-            // flowLayoutPanel6
-            // 
-            this.flowLayoutPanel6.AutoSize = true;
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox37);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox38);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox39);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox40);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox41);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox42);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox43);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox44);
-            this.flowLayoutPanel6.Controls.Add(this.numericTextBox45);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(1, 113);
-            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel6.TabIndex = 5;
             // 
             // numericTextBox37
             // 
@@ -553,24 +635,6 @@
             this.numericTextBox45.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox45.TabIndex = 0;
             // 
-            // flowLayoutPanel7
-            // 
-            this.flowLayoutPanel7.AutoSize = true;
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox46);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox47);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox48);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox49);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox50);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox51);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox52);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox53);
-            this.flowLayoutPanel7.Controls.Add(this.numericTextBox54);
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(1, 141);
-            this.flowLayoutPanel7.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel7.TabIndex = 6;
-            // 
             // numericTextBox46
             // 
             this.numericTextBox46.Location = new System.Drawing.Point(3, 3);
@@ -633,24 +697,6 @@
             this.numericTextBox54.Name = "numericTextBox54";
             this.numericTextBox54.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox54.TabIndex = 0;
-            // 
-            // flowLayoutPanel8
-            // 
-            this.flowLayoutPanel8.AutoSize = true;
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox55);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox56);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox57);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox58);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox59);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox60);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox61);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox62);
-            this.flowLayoutPanel8.Controls.Add(this.numericTextBox63);
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(1, 169);
-            this.flowLayoutPanel8.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel8.TabIndex = 7;
             // 
             // numericTextBox55
             // 
@@ -715,24 +761,6 @@
             this.numericTextBox63.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox63.TabIndex = 0;
             // 
-            // flowLayoutPanel9
-            // 
-            this.flowLayoutPanel9.AutoSize = true;
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox64);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox65);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox66);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox67);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox68);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox69);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox70);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox71);
-            this.flowLayoutPanel9.Controls.Add(this.numericTextBox72);
-            this.flowLayoutPanel9.Location = new System.Drawing.Point(1, 197);
-            this.flowLayoutPanel9.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel9.TabIndex = 8;
-            // 
             // numericTextBox64
             // 
             this.numericTextBox64.Location = new System.Drawing.Point(3, 3);
@@ -796,24 +824,6 @@
             this.numericTextBox72.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox72.TabIndex = 0;
             // 
-            // flowLayoutPanel10
-            // 
-            this.flowLayoutPanel10.AutoSize = true;
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox73);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox74);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox75);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox76);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox77);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox78);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox79);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox80);
-            this.flowLayoutPanel10.Controls.Add(this.numericTextBox81);
-            this.flowLayoutPanel10.Location = new System.Drawing.Point(1, 225);
-            this.flowLayoutPanel10.Margin = new System.Windows.Forms.Padding(1);
-            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
-            this.flowLayoutPanel10.Size = new System.Drawing.Size(234, 26);
-            this.flowLayoutPanel10.TabIndex = 9;
-            // 
             // numericTextBox73
             // 
             this.numericTextBox73.Location = new System.Drawing.Point(3, 3);
@@ -876,16 +886,6 @@
             this.numericTextBox81.Name = "numericTextBox81";
             this.numericTextBox81.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox81.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(94, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Solve!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
