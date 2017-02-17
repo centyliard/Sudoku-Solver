@@ -28,6 +28,7 @@ namespace SudokuSolver
         {
             sudokuGrid.ClearHighlighting();
             if (!sudokuGrid.ValidateGrid()) return;
+            SudokuSolvingAlgorithm.Run(sudokuGrid);
         }
     }
 }

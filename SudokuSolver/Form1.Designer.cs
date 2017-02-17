@@ -312,7 +312,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(94, 284);
+            this.button1.Location = new System.Drawing.Point(94, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(72, 23);
             this.button1.TabIndex = 1;
@@ -326,6 +326,17 @@
             this.numericTextBox1.Name = "numericTextBox1";
             this.numericTextBox1.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox1.TabIndex = 0;
+            this.numericTextBox1.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox2
             // 
@@ -333,6 +344,17 @@
             this.numericTextBox2.Name = "numericTextBox2";
             this.numericTextBox2.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox2.TabIndex = 0;
+            this.numericTextBox2.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox3
             // 
@@ -340,6 +362,17 @@
             this.numericTextBox3.Name = "numericTextBox3";
             this.numericTextBox3.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox3.TabIndex = 0;
+            this.numericTextBox3.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox4
             // 
@@ -347,6 +380,17 @@
             this.numericTextBox4.Name = "numericTextBox4";
             this.numericTextBox4.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox4.TabIndex = 0;
+            this.numericTextBox4.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox5
             // 
@@ -354,6 +398,17 @@
             this.numericTextBox5.Name = "numericTextBox5";
             this.numericTextBox5.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox5.TabIndex = 0;
+            this.numericTextBox5.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox6
             // 
@@ -361,6 +416,17 @@
             this.numericTextBox6.Name = "numericTextBox6";
             this.numericTextBox6.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox6.TabIndex = 0;
+            this.numericTextBox6.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox7
             // 
@@ -368,6 +434,17 @@
             this.numericTextBox7.Name = "numericTextBox7";
             this.numericTextBox7.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox7.TabIndex = 0;
+            this.numericTextBox7.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox8
             // 
@@ -375,6 +452,17 @@
             this.numericTextBox8.Name = "numericTextBox8";
             this.numericTextBox8.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox8.TabIndex = 0;
+            this.numericTextBox8.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox9
             // 
@@ -382,6 +470,17 @@
             this.numericTextBox9.Name = "numericTextBox9";
             this.numericTextBox9.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox9.TabIndex = 0;
+            this.numericTextBox9.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox10
             // 
@@ -389,6 +488,17 @@
             this.numericTextBox10.Name = "numericTextBox10";
             this.numericTextBox10.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox10.TabIndex = 0;
+            this.numericTextBox10.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox11
             // 
@@ -396,6 +506,17 @@
             this.numericTextBox11.Name = "numericTextBox11";
             this.numericTextBox11.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox11.TabIndex = 0;
+            this.numericTextBox11.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox12
             // 
@@ -403,6 +524,17 @@
             this.numericTextBox12.Name = "numericTextBox12";
             this.numericTextBox12.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox12.TabIndex = 0;
+            this.numericTextBox12.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox13
             // 
@@ -410,6 +542,17 @@
             this.numericTextBox13.Name = "numericTextBox13";
             this.numericTextBox13.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox13.TabIndex = 0;
+            this.numericTextBox13.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox14
             // 
@@ -417,6 +560,17 @@
             this.numericTextBox14.Name = "numericTextBox14";
             this.numericTextBox14.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox14.TabIndex = 0;
+            this.numericTextBox14.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox15
             // 
@@ -424,6 +578,17 @@
             this.numericTextBox15.Name = "numericTextBox15";
             this.numericTextBox15.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox15.TabIndex = 0;
+            this.numericTextBox15.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox16
             // 
@@ -431,6 +596,17 @@
             this.numericTextBox16.Name = "numericTextBox16";
             this.numericTextBox16.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox16.TabIndex = 0;
+            this.numericTextBox16.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox17
             // 
@@ -438,6 +614,17 @@
             this.numericTextBox17.Name = "numericTextBox17";
             this.numericTextBox17.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox17.TabIndex = 0;
+            this.numericTextBox17.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox18
             // 
@@ -445,6 +632,17 @@
             this.numericTextBox18.Name = "numericTextBox18";
             this.numericTextBox18.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox18.TabIndex = 0;
+            this.numericTextBox18.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox19
             // 
@@ -452,6 +650,17 @@
             this.numericTextBox19.Name = "numericTextBox19";
             this.numericTextBox19.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox19.TabIndex = 0;
+            this.numericTextBox19.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox20
             // 
@@ -459,6 +668,17 @@
             this.numericTextBox20.Name = "numericTextBox20";
             this.numericTextBox20.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox20.TabIndex = 0;
+            this.numericTextBox20.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox21
             // 
@@ -466,6 +686,17 @@
             this.numericTextBox21.Name = "numericTextBox21";
             this.numericTextBox21.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox21.TabIndex = 0;
+            this.numericTextBox21.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox22
             // 
@@ -473,6 +704,17 @@
             this.numericTextBox22.Name = "numericTextBox22";
             this.numericTextBox22.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox22.TabIndex = 0;
+            this.numericTextBox22.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox23
             // 
@@ -480,6 +722,17 @@
             this.numericTextBox23.Name = "numericTextBox23";
             this.numericTextBox23.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox23.TabIndex = 0;
+            this.numericTextBox23.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox24
             // 
@@ -487,6 +740,17 @@
             this.numericTextBox24.Name = "numericTextBox24";
             this.numericTextBox24.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox24.TabIndex = 0;
+            this.numericTextBox24.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox25
             // 
@@ -494,6 +758,17 @@
             this.numericTextBox25.Name = "numericTextBox25";
             this.numericTextBox25.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox25.TabIndex = 0;
+            this.numericTextBox25.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox26
             // 
@@ -501,6 +776,17 @@
             this.numericTextBox26.Name = "numericTextBox26";
             this.numericTextBox26.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox26.TabIndex = 0;
+            this.numericTextBox26.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox27
             // 
@@ -508,6 +794,17 @@
             this.numericTextBox27.Name = "numericTextBox27";
             this.numericTextBox27.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox27.TabIndex = 0;
+            this.numericTextBox27.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox28
             // 
@@ -515,6 +812,17 @@
             this.numericTextBox28.Name = "numericTextBox28";
             this.numericTextBox28.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox28.TabIndex = 0;
+            this.numericTextBox28.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox29
             // 
@@ -522,6 +830,17 @@
             this.numericTextBox29.Name = "numericTextBox29";
             this.numericTextBox29.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox29.TabIndex = 0;
+            this.numericTextBox29.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox30
             // 
@@ -529,6 +848,17 @@
             this.numericTextBox30.Name = "numericTextBox30";
             this.numericTextBox30.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox30.TabIndex = 0;
+            this.numericTextBox30.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox31
             // 
@@ -536,6 +866,17 @@
             this.numericTextBox31.Name = "numericTextBox31";
             this.numericTextBox31.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox31.TabIndex = 0;
+            this.numericTextBox31.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox32
             // 
@@ -543,6 +884,17 @@
             this.numericTextBox32.Name = "numericTextBox32";
             this.numericTextBox32.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox32.TabIndex = 0;
+            this.numericTextBox32.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox33
             // 
@@ -550,6 +902,17 @@
             this.numericTextBox33.Name = "numericTextBox33";
             this.numericTextBox33.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox33.TabIndex = 0;
+            this.numericTextBox33.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox34
             // 
@@ -557,6 +920,17 @@
             this.numericTextBox34.Name = "numericTextBox34";
             this.numericTextBox34.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox34.TabIndex = 0;
+            this.numericTextBox34.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox35
             // 
@@ -564,6 +938,17 @@
             this.numericTextBox35.Name = "numericTextBox35";
             this.numericTextBox35.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox35.TabIndex = 0;
+            this.numericTextBox35.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox36
             // 
@@ -571,6 +956,17 @@
             this.numericTextBox36.Name = "numericTextBox36";
             this.numericTextBox36.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox36.TabIndex = 0;
+            this.numericTextBox36.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox37
             // 
@@ -578,6 +974,17 @@
             this.numericTextBox37.Name = "numericTextBox37";
             this.numericTextBox37.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox37.TabIndex = 0;
+            this.numericTextBox37.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox38
             // 
@@ -585,6 +992,17 @@
             this.numericTextBox38.Name = "numericTextBox38";
             this.numericTextBox38.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox38.TabIndex = 0;
+            this.numericTextBox38.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox39
             // 
@@ -592,6 +1010,17 @@
             this.numericTextBox39.Name = "numericTextBox39";
             this.numericTextBox39.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox39.TabIndex = 0;
+            this.numericTextBox39.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox40
             // 
@@ -599,6 +1028,17 @@
             this.numericTextBox40.Name = "numericTextBox40";
             this.numericTextBox40.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox40.TabIndex = 0;
+            this.numericTextBox40.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox41
             // 
@@ -606,6 +1046,17 @@
             this.numericTextBox41.Name = "numericTextBox41";
             this.numericTextBox41.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox41.TabIndex = 0;
+            this.numericTextBox41.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox42
             // 
@@ -613,6 +1064,17 @@
             this.numericTextBox42.Name = "numericTextBox42";
             this.numericTextBox42.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox42.TabIndex = 0;
+            this.numericTextBox42.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox43
             // 
@@ -620,6 +1082,17 @@
             this.numericTextBox43.Name = "numericTextBox43";
             this.numericTextBox43.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox43.TabIndex = 0;
+            this.numericTextBox43.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox44
             // 
@@ -627,6 +1100,17 @@
             this.numericTextBox44.Name = "numericTextBox44";
             this.numericTextBox44.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox44.TabIndex = 0;
+            this.numericTextBox44.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox45
             // 
@@ -634,6 +1118,17 @@
             this.numericTextBox45.Name = "numericTextBox45";
             this.numericTextBox45.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox45.TabIndex = 0;
+            this.numericTextBox45.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox46
             // 
@@ -641,6 +1136,17 @@
             this.numericTextBox46.Name = "numericTextBox46";
             this.numericTextBox46.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox46.TabIndex = 0;
+            this.numericTextBox46.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox47
             // 
@@ -648,6 +1154,17 @@
             this.numericTextBox47.Name = "numericTextBox47";
             this.numericTextBox47.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox47.TabIndex = 0;
+            this.numericTextBox47.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox48
             // 
@@ -655,6 +1172,17 @@
             this.numericTextBox48.Name = "numericTextBox48";
             this.numericTextBox48.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox48.TabIndex = 0;
+            this.numericTextBox48.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox49
             // 
@@ -662,6 +1190,17 @@
             this.numericTextBox49.Name = "numericTextBox49";
             this.numericTextBox49.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox49.TabIndex = 0;
+            this.numericTextBox49.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox50
             // 
@@ -669,6 +1208,17 @@
             this.numericTextBox50.Name = "numericTextBox50";
             this.numericTextBox50.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox50.TabIndex = 0;
+            this.numericTextBox50.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox51
             // 
@@ -676,6 +1226,17 @@
             this.numericTextBox51.Name = "numericTextBox51";
             this.numericTextBox51.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox51.TabIndex = 0;
+            this.numericTextBox51.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox52
             // 
@@ -683,6 +1244,17 @@
             this.numericTextBox52.Name = "numericTextBox52";
             this.numericTextBox52.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox52.TabIndex = 0;
+            this.numericTextBox52.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox53
             // 
@@ -690,6 +1262,17 @@
             this.numericTextBox53.Name = "numericTextBox53";
             this.numericTextBox53.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox53.TabIndex = 0;
+            this.numericTextBox53.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox54
             // 
@@ -697,6 +1280,17 @@
             this.numericTextBox54.Name = "numericTextBox54";
             this.numericTextBox54.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox54.TabIndex = 0;
+            this.numericTextBox54.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox55
             // 
@@ -704,6 +1298,17 @@
             this.numericTextBox55.Name = "numericTextBox55";
             this.numericTextBox55.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox55.TabIndex = 0;
+            this.numericTextBox55.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox56
             // 
@@ -711,6 +1316,17 @@
             this.numericTextBox56.Name = "numericTextBox56";
             this.numericTextBox56.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox56.TabIndex = 0;
+            this.numericTextBox56.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox57
             // 
@@ -718,6 +1334,17 @@
             this.numericTextBox57.Name = "numericTextBox57";
             this.numericTextBox57.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox57.TabIndex = 0;
+            this.numericTextBox57.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox58
             // 
@@ -725,6 +1352,17 @@
             this.numericTextBox58.Name = "numericTextBox58";
             this.numericTextBox58.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox58.TabIndex = 0;
+            this.numericTextBox58.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox59
             // 
@@ -732,6 +1370,17 @@
             this.numericTextBox59.Name = "numericTextBox59";
             this.numericTextBox59.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox59.TabIndex = 0;
+            this.numericTextBox59.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox60
             // 
@@ -739,6 +1388,17 @@
             this.numericTextBox60.Name = "numericTextBox60";
             this.numericTextBox60.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox60.TabIndex = 0;
+            this.numericTextBox60.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox61
             // 
@@ -746,6 +1406,17 @@
             this.numericTextBox61.Name = "numericTextBox61";
             this.numericTextBox61.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox61.TabIndex = 0;
+            this.numericTextBox61.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox62
             // 
@@ -753,6 +1424,17 @@
             this.numericTextBox62.Name = "numericTextBox62";
             this.numericTextBox62.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox62.TabIndex = 0;
+            this.numericTextBox62.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox63
             // 
@@ -760,6 +1442,17 @@
             this.numericTextBox63.Name = "numericTextBox63";
             this.numericTextBox63.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox63.TabIndex = 0;
+            this.numericTextBox63.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox64
             // 
@@ -767,6 +1460,17 @@
             this.numericTextBox64.Name = "numericTextBox64";
             this.numericTextBox64.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox64.TabIndex = 0;
+            this.numericTextBox64.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox65
             // 
@@ -774,6 +1478,17 @@
             this.numericTextBox65.Name = "numericTextBox65";
             this.numericTextBox65.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox65.TabIndex = 0;
+            this.numericTextBox65.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox66
             // 
@@ -781,6 +1496,17 @@
             this.numericTextBox66.Name = "numericTextBox66";
             this.numericTextBox66.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox66.TabIndex = 0;
+            this.numericTextBox66.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox67
             // 
@@ -788,6 +1514,17 @@
             this.numericTextBox67.Name = "numericTextBox67";
             this.numericTextBox67.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox67.TabIndex = 0;
+            this.numericTextBox67.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox68
             // 
@@ -795,6 +1532,17 @@
             this.numericTextBox68.Name = "numericTextBox68";
             this.numericTextBox68.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox68.TabIndex = 0;
+            this.numericTextBox68.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox69
             // 
@@ -802,6 +1550,17 @@
             this.numericTextBox69.Name = "numericTextBox69";
             this.numericTextBox69.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox69.TabIndex = 0;
+            this.numericTextBox69.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox70
             // 
@@ -809,6 +1568,17 @@
             this.numericTextBox70.Name = "numericTextBox70";
             this.numericTextBox70.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox70.TabIndex = 0;
+            this.numericTextBox70.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox71
             // 
@@ -816,6 +1586,17 @@
             this.numericTextBox71.Name = "numericTextBox71";
             this.numericTextBox71.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox71.TabIndex = 0;
+            this.numericTextBox71.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox72
             // 
@@ -823,6 +1604,17 @@
             this.numericTextBox72.Name = "numericTextBox72";
             this.numericTextBox72.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox72.TabIndex = 0;
+            this.numericTextBox72.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox73
             // 
@@ -830,6 +1622,17 @@
             this.numericTextBox73.Name = "numericTextBox73";
             this.numericTextBox73.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox73.TabIndex = 0;
+            this.numericTextBox73.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox74
             // 
@@ -837,6 +1640,17 @@
             this.numericTextBox74.Name = "numericTextBox74";
             this.numericTextBox74.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox74.TabIndex = 0;
+            this.numericTextBox74.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox75
             // 
@@ -844,6 +1658,17 @@
             this.numericTextBox75.Name = "numericTextBox75";
             this.numericTextBox75.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox75.TabIndex = 0;
+            this.numericTextBox75.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox76
             // 
@@ -851,6 +1676,17 @@
             this.numericTextBox76.Name = "numericTextBox76";
             this.numericTextBox76.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox76.TabIndex = 0;
+            this.numericTextBox76.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox77
             // 
@@ -858,6 +1694,17 @@
             this.numericTextBox77.Name = "numericTextBox77";
             this.numericTextBox77.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox77.TabIndex = 0;
+            this.numericTextBox77.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox78
             // 
@@ -865,6 +1712,17 @@
             this.numericTextBox78.Name = "numericTextBox78";
             this.numericTextBox78.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox78.TabIndex = 0;
+            this.numericTextBox78.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox79
             // 
@@ -872,6 +1730,17 @@
             this.numericTextBox79.Name = "numericTextBox79";
             this.numericTextBox79.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox79.TabIndex = 0;
+            this.numericTextBox79.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox80
             // 
@@ -879,6 +1748,17 @@
             this.numericTextBox80.Name = "numericTextBox80";
             this.numericTextBox80.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox80.TabIndex = 0;
+            this.numericTextBox80.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // numericTextBox81
             // 
@@ -886,17 +1766,28 @@
             this.numericTextBox81.Name = "numericTextBox81";
             this.numericTextBox81.Size = new System.Drawing.Size(20, 20);
             this.numericTextBox81.TabIndex = 0;
+            this.numericTextBox81.viableNumbers = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false};
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(271, 334);
+            this.ClientSize = new System.Drawing.Size(271, 355);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sudoku Solver";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();

@@ -11,6 +11,36 @@ namespace SudokuSolver
     [ToolboxItem(true)]
     class NumericTextBox : TextBox
     {
+        public bool[] viableNumbers { get; set; } = new bool[10];
+
+
+        public int CountValidValues()
+        {
+            int ValidValuesCount = 0;
+            for (int i = 1; i <= 9; i++)
+            {
+                if (viableNumbers[i] == true)
+                {
+                    ValidValuesCount++;
+                }
+            }
+            return ValidValuesCount;
+        }
+        public int GetTheOnlyValidValue()
+        {
+            if(CountValidValues() == 1)
+            {
+                for (int i = 1; i <= 9; i++)
+                {
+                    if (viableNumbers[i] == true)
+                    {
+                        return i;
+                    }
+                }
+            }
+            return 0;
+        }
+
         /// <summary>
         /// This function allows a user to input 1-9 numbers only and goes to
         /// the next box after entering the number
